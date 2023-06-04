@@ -1,0 +1,57 @@
+@mixin button-style($background, $color){
+
+
+    background: $background;
+    color: $color;
+
+    /* Funcoes*/
+
+
+    &:hover{
+        background: grayscale( $background);
+    }
+
+
+
+}
+
+
+.btn{
+    width: 200px;
+    padding: 10px 0px;
+    background: none;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+
+
+
+}
+
+
+
+
+ /* Código para mesma informação */
+.btn-laranja{
+   @include button-style($color-orange, #fff)
+}
+
+.btn-roxo{
+ 
+    @include button-style($color-roxo, #fff)
+}
+
+.btn-amarelo{
+   
+    @include button-style($color-amarelo, #fff)
+}
+
+
+/*Variaveis no sass*/
+
+
+
+
+
+

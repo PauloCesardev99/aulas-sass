@@ -1,0 +1,12 @@
+/*  Ele trabalha com agrupamento*/
+p span {
+  background-color: red;
+}
+p b {
+  background-color: black;
+}
+p:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

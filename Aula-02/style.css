@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.btn {
+  width: 200px;
+  padding: 10px 0px;
+  background: none;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Código para mesma informação */
+.btn-laranja {
+  background: orange;
+  color: #fff;
+  /* Funcoes*/
+}
+.btn-laranja:hover {
+  background: gray;
+}
+
+.btn-roxo {
+  background: purple;
+  color: #fff;
+  /* Funcoes*/
+}
+.btn-roxo:hover {
+  background: #404040;
+}
+
+.btn-amarelo {
+  background: yellow;
+  color: #fff;
+  /* Funcoes*/
+}
+.btn-amarelo:hover {
+  background: gray;
+}
+
+/*Variaveis no sass*/
+
+/*# sourceMappingURL=style.css.map */

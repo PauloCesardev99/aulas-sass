@@ -1,0 +1,23 @@
+/*  Ele trabalha com agrupamento*/
+
+
+p{
+    span{
+        background-color: red;
+    }
+
+    b {
+        background-color: black;
+    }
+
+    &:hover{
+        color: white;
+    }
+}
+
+
+
+
+
+
+
